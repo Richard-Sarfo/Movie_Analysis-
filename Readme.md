@@ -1,6 +1,6 @@
-Movie Analysis Project
+# Movie Analysis Project
 
-Overview
+# Overview
 This project explores a dataset of movies and performs an in-depth analysis of budget, revenue, movie franchises, directors, and trends over time.
 
 The goal is to uncover insights such as:
@@ -24,7 +24,7 @@ Make sure you have Python 3.9+ installed.
 Install dependencies:
 
 ```bash
-pip install pandas numpy matplotlib
+pip install pandas numpy matplotlib,os,request
 ```
 
 (Optional but common):
@@ -35,22 +35,22 @@ pip install seaborn
 
 ---
 
-## 📊 **Key Analysis Steps**
+# Key Analysis Steps
 
-### **1. Data Loading & Cleaning**
+# Data Loading & Cleaning
 
 * Load raw dataset (CSV)
 * Handle missing values
 * Convert date columns to datetime
 * Compute additional features (profit, decade, etc.)
 
-### **2. Exploratory Data Analysis (EDA)**
+# Exploratory Data Analysis (EDA)
 
 * Summary statistics
 * Correlation between budget and revenue
 * Visualization of distributions
 
-### **3. Franchise Analysis**
+# Franchise Analysis
 
 * Group movies by franchise
 * Calculate:
@@ -60,7 +60,7 @@ pip install seaborn
   * total revenue
   * average revenue
 
-### **4. Director Analysis**
+# Director Analysis
 
 * Rank directors based on:
 
@@ -68,7 +68,7 @@ pip install seaborn
   * total revenue
   * average revenue
 
-### **5. Yearly Trends**
+# 5. Yearly Trends
 
 * Compute yearly means for:
 
@@ -76,7 +76,7 @@ pip install seaborn
   * revenue
 * Plot trends using line charts
 
-### **6. Insights & Conclusions**
+# Insights & Conclusions
 
 Examples:
 
@@ -86,18 +86,18 @@ Examples:
 
 ---
 
-## 📈 **Sample Visualizations**
+# Sample Visualizations
 
 The notebook generates plots such as:
 
-* **Yearly Average Revenue**
-* **Yearly Average Budget**
-* **Correlation plots (budget vs revenue)**
-* **Top 5 franchises/directors**
+* Yearly Average Revenue
+* Yearly Average Budget
+* Correlation plots (budget vs revenue)
+* Top 5 franchises/directors
 
 ---
 
-## 🚀 **How to Run**
+# How to Run
 
 1. Open Jupyter Notebook:
 
@@ -111,16 +111,10 @@ The notebook generates plots such as:
    ```
 3. Run all cells:
 
-   * **Kernel → Restart & Run All**
+   * Kernel → Restart & Run All
 
 ---
 
-## 🤝 **Contributing**
+# Contributing
 
-Feel free to fork the project or suggest improvements.
-
----
-
-## 📬 **Contact*
-
-If you need help improving charts, cleaning data, or adding machine-learning predictions, just ask!
+Feel free to fork the project or suggest improvements
