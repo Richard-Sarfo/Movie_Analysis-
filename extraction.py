@@ -4,12 +4,10 @@ import requests
 def movie(movie_id, key):
     url = url = f"https://api.themoviedb.org/3/movie/{movie_id}?append_to_response=credits&api_key={key}"
 
-    params = {
-        'api_key': key
-    }
+
     #try and except blocks to handle errors 
     try:
-        response = requests.get(url, params=params, timeout=5)
+        response = requests.get(url,timeout=5)
         # Raise an HTTPError for bad responses (4xx or 5xx)
         response.raise_for_status()
     except requests.exceptions.HTTPError as http_err:
