@@ -1,6 +1,4 @@
-import pandas as pd
 import json
-
 
 def extract_data(data):
         """Extract 'name' values from a list of dictionaries."""
@@ -33,6 +31,7 @@ def get_director(credits):
         if isinstance(person, dict) and person.get('job') == 'Director':
             return person.get('name')
     return None
+
 
 def separate_data(df, column):
     """Clean column by removing brackets/quotes and replacing commas with pipes."""
